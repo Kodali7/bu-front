@@ -1,156 +1,68 @@
-html, body {
-  height: 100%;
-  width: 100%;
-  margin:0px;
-}
-
 @font-face {
   font-family: "NightZone";
-  src: url("../../fonts/NightZone.ttf")format('truetype');
+  src: url("../../fonts/NightZone.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "coolvetica";
-  src: url("../../fonts/coolvetica.otf")format('opentype');
+  src: url("../../fonts/coolvetica.otf") format("opentype");
 }
 
-#bar{
-  display:flex;
-  flex-direction: row;
-  background-color: orange;
-  justify-content: space-between;
-  width: 100%;
-  float:right;
-  height: 15vh;
-  top:0;
-  left:0;
-  z-index: 4;
-}
-
-#listbar{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-#listbar li{
-  display:inline-flex;
-  margin-right:2px;
-  height: 20vh;
-  width: auto;
-}
-
-#bar-bulogo{
-  width:25vh;
-  height:auto;
-  margin-right: 10vw;
-  margin-top: 1vh;
-  margin-left:10vw;
-}
-
-.bar-smallbaricon{
-  width:20vh;
-  height:auto;
-}
-
-.bar-bigbaricon{
-    width: 15vh;
-    height: auto;
+:root {
+  --text-color: #0894d4;
+  --base-ff: coolvetica, san-serif;
 }
 
 
-@media only screen and (min-width: 500px) {
+body{
+  background-image: url("/mockups/assets/dollarpage/background.png");
+  background-repeat: no-repeat;
+  background-position: center center;
 
+}
 
+.main-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 1em;
+}
 
+.main-content > aside {
+  padding: 1em;
+}
 
+.mapping-content img {
+  height: 550px;
+}
 
+.mapping-content-description h1 {
+  font-family: var(--base-ff);
+  text-transform: uppercase;
+  color: var(--text-color);
+  margin-left: 1em;
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 0.2em;
+}
 
+.mapping-content-description ul li{
+  color: var(--text-color);
+  font-family: NightZone;
+  font-size: 1.3rem;
+  margin: 1em 0em;
+  max-width: 40ch;
+  word-wrap: 1em;
+}
 
-  #talk-bulletwrapper{
-    display:inline-block;
-    margin-left:5vw;
-  }
-  
-  .talk-bullets{
-    height: 7.5vh;
-    width: auto;
-    margin:2vh;
-  }
-  
-  #talk-talk{
-    height:20vh;
-    width:auto;
-  }
-  
-  #talk-bg{
-    border-bottom: 75vh solid #008dd2;
-    border-left: 0px solid transparent;
-    border-right: 50vh solid transparent;
-    height: 0;
-    width: 50vw;
-    position: absolute;
-    z-index:2;
-  }
-  
-  #s4ytsection{
-    display:flex;
-    flex-direction:row;
-    background-color: #68b436;
-    width:100%;
-    height:75vh;
-    background-image: url(../assets/dollarpage/background.png) ;
-    justify-content: space-between;
-  }
-  
-  #s4yt-leftsec{
-  display:flex;
-  flex-direction: row;
-  margin-left:5vw;
-  margin-top:2vh;
-  }
-  
+.question-box{
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+    align-items: start;
+}
 
+.question-box img{
+  height: 80px;
+  width: 50%;
+}
 
-    
-
-  
-
-  
-
-  
-  
-  
-  
-  
-  
-  
-  }
-
-
-
-  #s4yt-click{
-    width:auto;
-    height: 20vh;
-    margin-left:-4vw;
-    margin-bottom:2vh;
-    }
-    
-  
-    #s4yt-paper{
-      width:auto;
-      height:65vh;
-      margin-top:2vh;
-      
-      }
-    
-
-        
-  #s4yt-leftsec{
-    display:flex;
-    flex-direction: row;
-    margin-left:5vw;
-    margin-top:2vh;
-    }
-    
-  
