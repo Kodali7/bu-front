@@ -18,21 +18,29 @@ body{
   background-image: url("/mockups/assets/dollarpage/background.png");
   background-repeat: no-repeat;
   background-position: center center;
-
+  background-size: cover;
+  height: 100vmax;
 }
 
 .main-content {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   margin: 1em;
 }
 
 .main-content > aside {
   padding: 1em;
+  border: 1px solid black;
 }
 
 .mapping-content img {
   height: 550px;
+}
+
+.mapping-content-description{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
 }
 
 .mapping-content-description h1 {
@@ -52,17 +60,22 @@ body{
   margin: 1em 0em;
   max-width: 40ch;
   word-wrap: 1em;
+  font-size: 1.5em;
 }
 
-.question-box{
+.website-text__navigation{
   display: flex;
-  justify-content: end;
-  flex-direction: column;
-    align-items: start;
+  flex-direction: row;
 }
 
-.question-box img{
-  height: 80px;
+.website-text__navigation > img{
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 1em 0;
 }
 
+
+.content{
+  border: 1px solid black;
+}
