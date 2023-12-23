@@ -1,0 +1,58 @@
+
+
+.desktop{
+  display:flex;
+}
+
+
+
+#main-header{
+    display:flex;
+    flex-direction: row;
+    background-color: orange;
+    justify-content: space-between;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    align-items: center;
+}
+
+.main-nav__items{
+  display: flex;
+  list-style: none;
+  justify-content: center ;
+}
+
+.main-nav__items > li{
+  margin: 0px 1em;
+}
+
+
+
+/* #bar-bulogo{
+  width:25vh;
+  height:auto;
+  margin-right: 10vw;
+  margin-top: 1vh;
+  margin-left:10vw;
+}
+   
+.bar-smallbaricon{
+  width:20vh;
+  height:auto;
+}
+
+.bar-bigbaricon{
+    width: 15vh;
+    height: auto;
+}
+
+#bar-con{
+  margin-left: 5vw;
+  margin-right:0vw;
+}
+
+#bar-signin{
+  margin-right:2vw;
+  margin-left:0vw
+} */
