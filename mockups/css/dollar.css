@@ -223,6 +223,13 @@ footer{
         flex-direction: row;
     }
 
+    #s4yt-midsec{
+        position: relative;
+        right:700px;
+        align-items:center;
+        
+
+    }
     #s4yt-leftsec{
         align-items: center;
         width:50vw;
