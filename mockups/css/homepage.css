@@ -100,16 +100,50 @@ html, body {
     width:100%;
     height:75vh;
     background-image: url(../assets/dollarpage/background.png) ;
-    justify-content: space-between;
+    justify-content: flex-start;
   }
   
   #s4yt-leftsec{
-  display:flex;
-  flex-direction: row;
-  margin-left:5vw;
-  margin-top:2vh;
+    display:flex;
+    flex-direction: row;
+    margin-left:5vw;
+    margin-top:2vh;
   }
   
+  #s4yt-infobuttons{
+    display:flex;
+    flex-direction: column;
+    margin-left:10vw;
+    margin-top:15vh;
+    justify-self:first baseline;
+  }
+
+  #s4yt-what, #s4yt-ami, #s4yt-when, #s4yt-howdo, #s4yt-whatare{
+    width:30vh;
+    height: 8vh;
+    margin-left:-4vw;
+    margin-bottom:2vh;
+  }
+
+  #s4yt-what:hover{
+    content: url("../assets/01_more-info/btn_01-what-is-hover.png");
+  }
+
+  #s4yt-ami:hover{
+    content: url("../assets/01_more-info/btn_02-am-i-hover.png");
+  }
+
+  #s4yt-when:hover{
+    content: url("../assets/01_more-info/btn_03-when-can-hover.png");
+  }
+
+  #s4yt-howdo:hover{
+    content: url("../assets/01_more-info/btn_04-how-do-i-hover.png");
+  }
+
+  #s4yt-whatare:hover{
+    content: url("../assets/01_more-info/btn_05-what-are-hover.png");
+  }
 
 
     
