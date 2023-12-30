@@ -192,3 +192,7 @@ html, body {
     }
     
   
+
+#txt1, #txt2, #txt3, #txt4, #txt5{
+  display:none;
+}
