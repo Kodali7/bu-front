@@ -85,9 +85,10 @@ html, body {
   }
    
 #s4ytdollar{
-    width:auto;
-    height:65vh;
-    margin-top:2vh;
+    width:500px;
+    height:675px;
+    margin-top:150px;
+    color: red !important
 
 }
 

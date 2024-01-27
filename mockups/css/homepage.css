@@ -111,10 +111,11 @@ html, body {
   }
   
   #s4yt-infobuttons{
-    display:flex;
+    display: flex;
     flex-direction: column;
-    margin-left:10vw;
-    margin-top:15vh;
+    margin-left: 139px;
+    margin-top: 8rem;
+    width: 293px;
     justify-self:first baseline;
   }
 
@@ -147,6 +148,11 @@ html, body {
 
   #text-info{
     color: #008dd2;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin-left:4rem;
+
   }
 
 
@@ -176,9 +182,9 @@ html, body {
     
   
     #s4yt-paper{
-      width:auto;
-      height:65vh;
-      margin-top:2vh;
+      width:400px;
+      height:550px;
+      margin-top:75px;
       
       }
     
