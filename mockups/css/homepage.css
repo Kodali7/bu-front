@@ -61,12 +61,6 @@ html, body {
 
 @media only screen and (min-width: 500px) {
 
-
-
-
-
-
-
   #talk-bulletwrapper{
     display:inline-block;
     margin-left:5vw;
@@ -154,48 +148,31 @@ html, body {
     margin-left:4rem;
 
   }
-
-
-    
-
-  
-
-  
-
-  
-  
-  
-  
-  
-  
-  
   }
 
 
 
-  #s4yt-click{
-    width:auto;
-    height: 20vh;
-    margin-left:-4vw;
-    margin-bottom:2vh;
-    }
+#s4yt-click{
+  width:auto;
+  height: 20vh;
+  margin-left:-4vw;
+  margin-bottom:2vh;
+}
     
   
-    #s4yt-paper{
-      width:400px;
-      height:550px;
-      margin-top:75px;
-      
-      }
-    
+#s4yt-paper{
+  width:auto;
+  height:60vh;
+  margin-top:5vh;
+}
 
         
-  #s4yt-leftsec{
-    display:flex;
-    flex-direction: row;
-    margin-left:5vw;
-    margin-top:2vh;
-    }
+#s4yt-leftsec{
+  display:flex;
+  flex-direction: row;
+  margin-left:5vw;
+  margin-top:2vh;
+}
     
   
 
