@@ -9,7 +9,15 @@ function handleWhatClick(){
     let x3 = document.getElementById("s4yt-when");
     let x4 = document.getElementById("s4yt-howdo");
     let x5 = document.getElementById("s4yt-whatare");
-    if(t1.style.display === "none"){
+    if(x1.classList.contains('active')){
+        return;
+    }
+    x1.classList.remove('active');
+    x2.classList.remove('active');
+    x3.classList.remove('active');
+    x4.classList.remove('active');
+    x5.classList.remove('active');
+    if(x1.classList.contains('active') === false){
         t1.style.display = "block";
         t2.style.display = "none";
         t3.style.display = "none";
@@ -20,10 +28,7 @@ function handleWhatClick(){
         x3.src="./assets/01_more-info/btn_03-when-can-normal.png";
         x4.src="./assets/01_more-info/btn_04-how-do-i-normal.png";
         x5.src="./assets/01_more-info/btn_05-what-are-normal.png";
-    }
-    else{
-        t1.style.display = "none";
-        x1.src="./assets/01_more-info/btn_01-what-is-normal.png";
+        x1.classList.add('active');
     }
 }
 
@@ -38,7 +43,15 @@ function handleAmiClick(){
     let x3 = document.getElementById("s4yt-when");
     let x4 = document.getElementById("s4yt-howdo");
     let x5 = document.getElementById("s4yt-whatare");
-    if(t2.style.display === "none"){
+    if(x2.classList.contains('active')){
+        return;
+    }
+    x1.classList.remove('active');
+    x2.classList.remove('active');
+    x3.classList.remove('active');
+    x4.classList.remove('active');
+    x5.classList.remove('active');
+    if(x2.classList.contains('active') === false){
         t2.style.display = "block";
         t1.style.display = "none";
         t3.style.display = "none";
@@ -49,10 +62,7 @@ function handleAmiClick(){
         x3.src="./assets/01_more-info/btn_03-when-can-normal.png";
         x4.src="./assets/01_more-info/btn_04-how-do-i-normal.png";
         x5.src="./assets/01_more-info/btn_05-what-are-normal.png";
-    }
-    else{
-        t2.style.display = "none";
-        x2.src="./assets/01_more-info/btn_02-am-i-normal.png";
+        x2.classList.add('active');
     }
 }
 
@@ -67,7 +77,15 @@ function handleWhenClick(){
     let x3 = document.getElementById("s4yt-when");
     let x4 = document.getElementById("s4yt-howdo");
     let x5 = document.getElementById("s4yt-whatare");
-    if(t3.style.display === "none"){
+    if(x3.classList.contains('active')){
+        return;
+    }
+    x1.classList.remove('active');
+    x2.classList.remove('active');
+    x3.classList.remove('active');
+    x4.classList.remove('active');
+    x5.classList.remove('active');
+    if(x3.classList.contains('active') === false){
         t3.style.display = "block";
         t1.style.display = "none";
         t2.style.display = "none";
@@ -78,10 +96,7 @@ function handleWhenClick(){
         x2.src="./assets/01_more-info/btn_02-am-i-normal.png";
         x4.src="./assets/01_more-info/btn_04-how-do-i-normal.png";
         x5.src="./assets/01_more-info/btn_05-what-are-normal.png";
-    }
-    else{
-        t3.style.display = "none";
-        x3.src="./assets/01_more-info/btn_03-when-can-normal.png";
+        x3.classList.add('active');
     }
 }
 
@@ -96,7 +111,15 @@ function handleHowClick(){
     let x3 = document.getElementById("s4yt-when");
     let x4 = document.getElementById("s4yt-howdo");
     let x5 = document.getElementById("s4yt-whatare");
-    if(t4.style.display === "none"){
+    if(x4.classList.contains('active')){
+        return;
+    }
+    x1.classList.remove('active');
+    x2.classList.remove('active');
+    x3.classList.remove('active');
+    x4.classList.remove('active');
+    x5.classList.remove('active');
+    if(x4.classList.contains('active') === false){
         t4.style.display = "block";
         t1.style.display = "none";
         t2.style.display = "none";
@@ -107,10 +130,7 @@ function handleHowClick(){
         x2.src="./assets/01_more-info/btn_02-am-i-normal.png";
         x3.src="./assets/01_more-info/btn_03-when-can-normal.png";
         x5.src="./assets/01_more-info/btn_05-what-are-normal.png";
-    }
-    else{
-        t4.style.display = "none";
-        x4.src="./assets/01_more-info/btn_04-how-do-i-normal.png";
+        x4.classList.add('active');
     }
 }
 
@@ -125,7 +145,15 @@ function handleWhatAreClick(){
     let x3 = document.getElementById("s4yt-when");
     let x4 = document.getElementById("s4yt-howdo");
     let x5 = document.getElementById("s4yt-whatare");
-    if(t5.style.display === "none"){
+    if(x5.classList.contains('active')){
+        return;
+    }
+    x1.classList.remove('active');
+    x2.classList.remove('active');
+    x3.classList.remove('active');
+    x4.classList.remove('active');
+    x5.classList.remove('active');
+    if(x5.classList.contains('active') === false){
         t5.style.display = "block";
         t1.style.display = "none";
         t2.style.display = "none";
@@ -136,9 +164,6 @@ function handleWhatAreClick(){
         x2.src="./assets/01_more-info/btn_02-am-i-normal.png";
         x3.src="./assets/01_more-info/btn_03-when-can-normal.png";
         x4.src="./assets/01_more-info/btn_04-how-do-i-normal.png";
-    }
-    else{
-        t5.style.display = "none";
-        x5.src="./assets/01_more-info/btn_05-what-are-normal.png";
+        x5.classList.add('active');
     }
 }

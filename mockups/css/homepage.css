@@ -126,19 +126,19 @@ html, body {
     margin-bottom:2vh;
   }
 
-  #s4yt-what:hover{
+  #s4yt-what:hover:not(.active){
     content: url("../assets/01_more-info/btn_01-what-is-hover.png");
   }
 
-  #s4yt-ami:hover{
+  #s4yt-ami:hover:not(.active){
     content: url("../assets/01_more-info/btn_02-am-i-hover.png");
   }
 
-  #s4yt-when:hover{
+  #s4yt-when:hover:not(.active){
     content: url("../assets/01_more-info/btn_03-when-can-hover.png");
   }
 
-  #s4yt-howdo:hover{
+  #s4yt-howdo:hover:not(.active){
     content: url("../assets/01_more-info/btn_04-how-do-i-hover.png");
   }
 
