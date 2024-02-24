@@ -10,8 +10,8 @@ html, body {
 }
 
 @font-face {
-  font-family: "coolvetica";
-  src: url("../../fonts/coolvetica.otf")format('opentype');
+  font-family: 'corbel';
+  src: url('corbel.ttf') format('truetype');
 }
 
 #bar{
@@ -114,7 +114,7 @@ html, body {
   }
 
   #s4yt-what, #s4yt-ami, #s4yt-when, #s4yt-howdo, #s4yt-whatare{
-    width:30vh;
+    width:25vh;
     height: 8vh;
     margin-left:-4vw;
     margin-bottom:2vh;
@@ -136,7 +136,7 @@ html, body {
     content: url("../assets/01_more-info/btn_04-how-do-i-hover.png");
   }
 
-  #s4yt-whatare:hover{
+  #s4yt-whatare:hover:not(.active){
     content: url("../assets/01_more-info/btn_05-what-are-hover.png");
   }
 
@@ -150,6 +150,14 @@ html, body {
   }
   }
 
+#text-info h3{
+  font-family: 'NightZone'
+}
+
+
+#text-info ul{
+  font-family: "corbel"
+}
 
 
 #s4yt-click{
