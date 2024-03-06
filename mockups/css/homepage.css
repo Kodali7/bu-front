@@ -65,6 +65,10 @@ html, body {
     display:inline-block;
     margin-left:5vw;
   }
+
+  #mbar{
+    display:none;
+  }
   
   .talk-bullets{
     height: 7.5vh;
@@ -186,4 +190,30 @@ html, body {
 
 #txt1, #txt2, #txt3, #txt4, #txt5{
   display:none;
+}
+
+@media (max-width: 425px){
+  #s4yt-paper{
+    display: none;
+  }
+  #mbar{
+    display:flex;
+    flex-direction: row;
+    background-color: orange;
+    width: 100%;
+    float:right;
+    height: 10vh;
+    top:0;
+    left:0;
+    z-index: 4;
+  }
+  #listbar{
+    display: none;
+  }
+  #bar{
+    display:none;
+  }
+  #s4yt-leftsec{
+    display:none;
+  }
 }
