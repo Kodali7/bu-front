@@ -192,7 +192,11 @@ html, body {
   display:none;
 }
 
-@media (max-width: 425px){
+#listbar1{
+  display: none;
+}
+
+@media (max-width: 600px){
   #s4yt-paper{
     display: none;
   }
@@ -200,20 +204,48 @@ html, body {
     display:flex;
     flex-direction: row;
     background-color: orange;
+    justify-content: center;
     width: 100%;
     float:right;
-    height: 10vh;
+    height: 15vh;
     top:0;
     left:0;
-    z-index: 4;
+    z-index: 5;
   }
-  #listbar{
-    display: none;
+
+  #mbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
   #bar{
-    display:none;
+    display: none;
   }
   #s4yt-leftsec{
     display:none;
+  }
+  /*
+  .bar-smallbaricon{
+    display:none;
+  }
+  .bar-bigbaricon{
+    display:none;
+  }
+  */
+  #listbar1{
+    list-style: none;
+  }
+  #listbar1.show-menu{
+    display:flex;
+    flex-direction: column;
+    background-color: orange;
+    text-align: center;
+    width: 100%;
+    float:right;
+    height: 100%;
+    top:100px;
+    left:0;
+    position: fixed;
+    z-index: 4;
   }
 }

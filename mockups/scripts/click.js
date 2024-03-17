@@ -167,3 +167,8 @@ function handleWhatAreClick(){
         x5.classList.add('active');
     }
 }
+
+function handleMenuClick(){
+    let x = document.getElementById("listbar1");
+    x.classList.toggle("show-menu");
+}
